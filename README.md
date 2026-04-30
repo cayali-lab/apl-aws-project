@@ -16,6 +16,10 @@ This project documents my AWS onboarding and cloud learning process.
 - IAM
 - Linux (Ubuntu)
 - Git & GitHub
+## Windows Tools
+
+- Used winget to manage packages
+- Updated system packages using winget
 
 ## Reflection
 This project helped me understand cloud basics and how to work with AWS services like EC2 and IAM in a real environment.
@@ -33,3 +37,9 @@ User → AWS Console → EC2 (Ubuntu) → SSH connection
 - Created EC2 instance using Terraform
 - Connected via SSH
 - Installed Nginx on EC2
+
+## Result
+
+Successfully deployed EC2 instance and accessed via browser.
+
+![Nginx Screenshot](screenshot.png)
