@@ -1,0 +1,2 @@
+- Launched EC2 instance using Terraform
+- Instance created successfully in eu-north-1
