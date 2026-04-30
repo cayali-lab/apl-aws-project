@@ -1,45 +1,40 @@
-# APL – AWS Project
+# APL AWS Project
 
-## Overview
-This project documents my AWS onboarding and cloud learning process.
+## Översikt
+Detta projekt visar min grundläggande förståelse för AWS, IAM, Terraform och Linux.
 
-## What I did
-- Created AWS account
-- Configured IAM user
-- Enabled MFA
-- Launched EC2 instance
-- Connected via SSH
+## Vad jag har gjort
+- Skapat ett AWS-konto
+- Konfigurerat IAM-användare med säker åtkomst
+- Installerat och konfigurerat AWS CLI
+- Installerat Terraform
+- Skapat en EC2-instans med Terraform
+- Anslutit till servern via SSH
+- Installerat Nginx webbserver
+- Verifierat att webbservern fungerar via publik IP
 
-## Tools
-- AWS
-- EC2
-- IAM
+## Tekniker och verktyg
+- AWS (EC2, IAM)
+- Terraform
 - Linux (Ubuntu)
+- SSH
 - Git & GitHub
-## Windows Tools
 
-- Used winget to manage packages
-- Updated system packages using winget
+## Resultat
+EC2-instansen skapades framgångsrikt och webbservern är tillgänglig via webbläsare.
 
-## Reflection
-This project helped me understand cloud basics and how to work with AWS services like EC2 and IAM in a real environment.
+## Säkerhet
+Terraform state-filer och .terraform-katalogen är exkluderade från GitHub av säkerhetsskäl och enligt best practice.
 
-## Architecture (Basic)
+## Nästa steg
+- Lära mig mer om Terraform
+- Automatisera fler resurser i AWS
+- Fördjupa mig i molninfrastruktur
 
-User → AWS Console → EC2 (Ubuntu) → SSH connection
+## Bevis
 
-## Terraform & EC2
+### Nginx Web Server
+![Nginx](nginx.png)
 
-- Connected to EC2 using SSH key (.pem file)
-- Understood SSH key authentication (public/private key)
-- Installed AWS CLI
-- Configured IAM user
-- Created EC2 instance using Terraform
-- Connected via SSH
-- Installed Nginx on EC2
-
-## Result
-
-Successfully deployed EC2 instance and accessed via browser.
-
-![Nginx Screenshot](screenshot.png)
+### SSH Connection
+![SSH](ec2.png)
