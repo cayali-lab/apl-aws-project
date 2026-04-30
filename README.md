@@ -18,19 +18,18 @@ This project documents my AWS onboarding and cloud learning process.
 - Git & GitHub
 
 ## Reflection
-This project helped me understand cloud basics and how to work with real servers.
-
+This project helped me understand cloud basics and how to work with AWS services like EC2 and IAM in a real environment.
 
 ## Architecture (Basic)
 
 User → AWS Console → EC2 (Ubuntu) → SSH connection
 
-## Screenshots
+## Terraform & EC2
 
-(Add screenshots here)
-
-## Next Steps
-
-- Learn Terraform
-- Automate infrastructure
-- Improve security# apl-aws-project
+- Connected to EC2 using SSH key (.pem file)
+- Understood SSH key authentication (public/private key)
+- Installed AWS CLI
+- Configured IAM user
+- Created EC2 instance using Terraform
+- Connected via SSH
+- Installed Nginx on EC2
